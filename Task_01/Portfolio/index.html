@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio</title>
+
+    <link rel="shortcut icon" href="./assets/IMG_20230915_091008.jpg" type="image/x-icon">
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">V.S.Chauhan</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#skill">Skills</a></li>
+          <li><a href="#project_container">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="section" id="Home">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Vikram Singh Chauhan<br />a</span> Web Developer
+          </h1>
+          <p class="description">
+            Welcome to my web developer portfolio! I'm Vikram , a skilled and
+            creative web developer with a passion for creating beautiful,
+            responsive, and user-friendly websites. .
+          </p>
+          <div class="action__btns">
+            <button class="hire__me">Hire Me</button>
+            <button class="portfolio">My Resume</button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="assets/IMG_20230915_091008.jpg" alt="profile" />
+        </div>
+      </div>
+      <hr style="color: bisque;">
+    </section>
+
+    <section class="section" id="About">
+     <div class="section__container">
+      <div class="image">
+        <img src="./assets/vikram_image.jpg" alt="">
+      </div>
+      <div class="content">
+        <h1 class="title about_heading"><span>ABOUT ME</span></h1>
+        <p class="description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum voluptas error quos excepturi quam dicta obcaecati magnam doloremque cumque ullam illum, dolore et sequi? Dolore hic culpa nobis, laborum quisquam dicta recusandae minima voluptates consectetur harum non eligendi illum laboriosam atque porro vero expedita? Animi esse dicta explicabo et consectetur.
+        </p>
+      </div>
+     </div>
+     <hr>
+    </section>
+
+    <section class="section" id="skill">
+      <h1 id="skill_heading">My Skills</h1>
+      <div id="skill_container">
+        <img src="./assets/c_icon.png" alt="">
+        <img src="./assets/c++_icon.png" alt="">
+        <img src="./assets/java_icon.jpg" alt="">
+        <img src="./assets/figma_icon.png" alt="">
+        <img src="./assets/html_icon.png" alt="">
+        <img src="./assets/css_icon.jpg" alt="">
+        <img src="./assets/js_icon.png" alt="">
+        <img src="./assets/github_icon.png" alt="">
+        <img src="./assets/vsc_icon.png" alt="">
+        <img src="./assets/android_icon.png" alt="">
+      </div>
+    </section>
+    <hr>    
+
+    <section class="section" id="project_container">
+      <!-- <div  id="project_container"> -->
+        <h1 id="project_heading">My Projects</h1>
+        <div class="content " id="project_content">
+          <div class="projects">
+            <img src="./assets/Calculator_icon.png" alt="">
+            <h2>CALCULATOR</h2>
+            <p class="description">
+              Created a sleek calculator with HTML, CSS, and JavaScript, offering intuitive calculations and enhancing user experience for practical tasks.
+            </p>
+          </div>
+          <div class="projects">
+            <img src="./assets/header.png" alt="">
+            <h2>FITCLUB</h2>
+            <p class="description">
+              Designed FitClub Gym's website using HTML and CSS, showcasing services, schedules, and fitness inspiration, promoting a healthy lifestyle effectively.
+            </p>
+          </div>
+          <div class="projects">
+            <img src="./assets/IMG_20230915_091008.jpg" alt="">
+            <h2>PORTFOLIO</h2>
+            <p class="description">
+              Crafted a personal portfolio website with HTML and CSS, featuring my skills, projects, and achievements, conveying my professional identity.
+            </p>
+          </div>
+        <!-- </div> -->
+      </div>
+    </section>
+    <hr>
+
+
+
+    <section class="section" id="contact">
+      <div class="section__container">
+       <div class="image">
+         <img src="./assets/contact_vikram.jpg" alt="">
+       </div>
+
+       <div id="contact_portion">
+         <h1 class="title about_heading" id="contact_heading"><span>Contact Me</span></h1>
+         <form action="" class="contact_form">
+          <input type="text" name="name" class="input" placeholder="Enter Your Name">
+          <input type="email" name="email" class="input" placeholder="Enter Your Email">
+          <textarea name="msg" class="input" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+          <input type="submit" value="SEND" class="input" id="send">
+         </form>
+       </div>
+
+     </section>
+     <hr>
+
+
+
+    
+  </body>
+</html>
